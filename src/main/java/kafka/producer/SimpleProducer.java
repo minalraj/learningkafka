@@ -29,6 +29,7 @@ public class SimpleProducer {
 
         SimpleProducer ob = new SimpleProducer();
         ob.asyncSend(record, kafkaProducer);
+        ob.asyncSend(record, kafkaProducer);
         ob.syncSend(record1, kafkaProducer);
 
     }
